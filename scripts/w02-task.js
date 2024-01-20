@@ -24,7 +24,7 @@ imageElement.setAttribute("alt", `This is ${fullName}. A student at BYU Idaho`);
 
 
 /* Step 5 - Array */
-let favfoods= ["Pizza","Ice Cream","Tacos","Sushi","Pasta","Burgers","Steak","Chicken","Salad","Fruit"];
+let favFoods= ["Pizza","Ice Cream","Tacos","Sushi","Pasta","Burgers","Steak","Chicken","Salad","Fruit"];
 foodElement.innerHTML= favFoods;
 let newFood = "chocolate";
 favFoods.push(newFood);
