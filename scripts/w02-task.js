@@ -5,7 +5,7 @@
 /* Step 2 - Variables */
        
 const fullName = "Evaristus Ochieng";
-const currentYear = new Date().getFullYear();
+const currentYear = new Date().getFullYear();//"2024"
 const profilePicture ="images/evaristus.jpeg";
 
 
@@ -14,16 +14,13 @@ const profilePicture ="images/evaristus.jpeg";
 
 const foodElement = document.querySelector('#food');
 const yearElement = document.querySelector("#year");
-const imageElement= document.querySelector("img");
+const imageElement= document.querySelector('img');
 
 
 /* Step 4 - Adding Content */
 yearElement.textContent = currentYear
-imageElement.setAttribute = ("src", profilePicture);
+imageElement.setAttribute("src", profilePicture);
 imageElement.setAttribute("alt", `This is ${fullName}. A student at BYU Idaho`);
-
-
-
 
 
 /* Step 5 - Array */
