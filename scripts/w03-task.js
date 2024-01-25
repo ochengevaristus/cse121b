@@ -74,24 +74,29 @@ const numbersArray = Array.from({ length: 13 }, (_, index) => index + 1);
 
 document.querySelector('#array').textContent = numbersArray.join(', ');
 
+/* Output Odds Only Array */
 document.querySelector('#odds').textContent = numbersArray.filter(number => number % 2 === 1).join(', ');
 
+/* Output Evens Only Array */
 document.querySelector('#evens').textContent = numbersArray.filter(number => number % 2 === 0).join(', ');
 
+/* Output Sum of Org. Array */
 document.querySelector('#sumOfArray').textContent = numbersArray.reduce((sum, number) => sum + number, 0);
 
+/* Output Multiplied by 2 Array */
 document.querySelector('#multiplied').textContent = numbersArray.map(number => number * 2).join(', ');
 
+/* Output Sum of Multiplied by 2 Array */
 document.querySelector('#sumOfMultiplied').textContent = numbersArray
   .map(number => number * 2)
   .reduce((sum, number) => sum + number, 0);
 
-/* Output Odds Only Array */
 
-/* Output Evens Only Array */
 
-/* Output Sum of Org. Array */
 
-/* Output Multiplied by 2 Array */
 
-/* Output Sum of Multiplied by 2 Array */
+
+
+
+
+
